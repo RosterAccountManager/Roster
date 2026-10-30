@@ -25,7 +25,7 @@ Please do **not** open a public GitHub issue for a vulnerability until a fix has
 - The auto-update channel and the manifest signing chain (Velopack / Ed25519).
 - The licence activation + refresh flow (`api.accountroster.com`).
 - The cookie vault format and its KDF / encryption path.
-- The MSI installer (`Roster-Setup-<version>.msi`).
+- The installer (`Roster-Setup-<version>.exe`).
 - The project website (the marketing/download pages), to the extent a flaw there could ship a tampered binary.
 
 ## What is **not** in scope

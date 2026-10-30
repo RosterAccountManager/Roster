@@ -9,9 +9,9 @@ the official **release downloads** and the **auto-update channel** for Roster.
 ## Is this the source code?
 
 No. Roster is proprietary software and its source is **not** published. This
-repository exists only to distribute signed release binaries and to host
+repository exists only to distribute release builds and to host
 security advisories. Use of Roster is governed by the
-[EULA](https://accountroster.com/legal.html).
+[EULA](https://accountroster.com/legal).
 
 ## Verifying your download
 
@@ -19,7 +19,7 @@ Every release publishes a SHA-256 hash in its release notes. Verify the file
 before installing:
 
 ```powershell
-Get-FileHash Roster-Setup-x64.msi -Algorithm SHA256
+Get-FileHash Roster-Setup-<version>.exe -Algorithm SHA256
 ```
 
 Updates are delivered via Velopack and are Ed25519-signed; the app refuses any
@@ -28,7 +28,7 @@ binary at compile time.
 
 > **SmartScreen:** Roster ships unsigned by design (no EV certificate). Windows
 > may warn on first launch — choose **More info → Run anyway**. See the
-> [Trust page](https://accountroster.com/trust.html) for why.
+> [Trust page](https://accountroster.com/trust) for why.
 
 ## Security
 
